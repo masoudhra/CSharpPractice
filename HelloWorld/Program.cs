@@ -24,7 +24,7 @@ namespace HelloWorld
              }
              Console.ReadKey();*/
 
-            Console.WriteLine("Please enter your number");
+           /* Console.WriteLine("Please enter your number");
             string input = Console.ReadLine();
             int number = Convert.ToInt32(input);
 
@@ -36,7 +36,16 @@ namespace HelloWorld
             {
                 Console.WriteLine("Your number is odd");
             }
-            Console.ReadKey();
+            Console.ReadKey();*/
+
+
+            int number = 10;
+            
+            for (int i = 0; i <= number; i++) {
+
+                Console.WriteLine(i);
+            }
+            Console.ReadKey();  
           
 
 
