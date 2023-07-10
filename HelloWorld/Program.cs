@@ -10,6 +10,10 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+
+
+            //allow to continue
+
             /* Console.WriteLine("Please insert your age ");
              string input =  Console.ReadLine();
              int age = Convert.ToInt32(input);
@@ -23,6 +27,13 @@ namespace HelloWorld
                  Console.WriteLine("Wellcome to capadocia!");
              }
              Console.ReadKey();*/
+
+
+            //***********************************
+
+
+
+            //Even or Odd numbber
 
             /* Console.WriteLine("Please enter your number");
              string input = Console.ReadLine();
@@ -39,6 +50,10 @@ namespace HelloWorld
              Console.ReadKey();*/
 
 
+            // ******************************************
+
+
+
             /* int number = 10;
 
              for (int i = 0; i <= number; i++) {
@@ -48,23 +63,55 @@ namespace HelloWorld
              Console.ReadKey();  */
 
 
-            Console.WriteLine("Please enter your number and we will give you the sum of previous even numbers");
-            
-            int number = Convert.ToInt32(Console.ReadLine());
 
-            int sum = 0;
+            //give your number and write sum of previous even number
 
-            for(int i = 2; i < number; i += 2)
+            /* Console.WriteLine("Please enter your number and we will give you the sum of previous even numbers");
+
+             int number = Convert.ToInt32(Console.ReadLine());
+
+             int sum = 0;
+
+             for(int i = 2; i < number; i += 2)
+             {
+                 sum = sum + i;
+
+             }
+             Console.WriteLine(sum);
+             Console.ReadKey();  */
+
+
+            // **********************************************
+
+
+
+
+            // Data Structures: Arrayys
+
+
+            /*string[] days = new string[7] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+             Or
+             string[] days = new string[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+             Or
+             string[] days = { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };*/
+
+
+            //************************************************
+
+
+            //write week days
+
+            string[] days = new string[7] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+
+            int count = days.Length;
+
+            for (int i = 0; i < days.Length; i++)
             {
-                sum = sum + i;
+                Console.WriteLine(days[i]);
 
             }
-            Console.WriteLine(sum);
-            Console.ReadKey();  
-          
+            Console.ReadKey();
 
-
-            
 
         }
     }
