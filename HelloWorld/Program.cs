@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace HelloWorld
@@ -101,16 +102,38 @@ namespace HelloWorld
 
             //write week days
 
-            string[] days = new string[7] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+            /* string[] days = new string[7] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
 
-            int count = days.Length;
+             int count = days.Length;
 
-            for (int i = 0; i < days.Length; i++)
+             for (int i = 0; i < days.Length; i++)
+             {
+                 Console.WriteLine(days[i]);
+
+             }
+             Console.ReadKey();*/
+
+
+            int[] evenNumber = new int[10];
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(days[i]);
+                evenNumber[i] = i * 2;
+            }
 
+            for (int i = evenNumber.Length - 1; i >=0 ; i--)
+            {
+                Console.WriteLine(evenNumber[i]);
             }
             Console.ReadKey();
+
+
+
+
+
+
+
+        
 
 
         }
